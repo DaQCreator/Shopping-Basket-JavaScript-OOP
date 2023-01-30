@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projekt Koszyk Sklepowy</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+  <section class="products">
+    <h1>Lista produktów</h1>
+    <ul>
+      <li>
+        <strong>Chleb pełnoziarnisty</strong> - 5.60
+        <button class="btn-buy-product" data-id="cucumber" data-name="Chleb pełnoziarnisty" data-price="5.60">Kup</button>
+      </li>
+      <li>
+        <strong>Pomidory - gałązka</strong> - 7.50
+        <button class="btn-buy-product" data-id="tomato" data-name="Pomidory - gałązka" data-price="7.50">Kup</button>
+      </li>
+      <li>
+        <strong>BMW F31</strong> - 109000.00
+        <button class="btn-buy-product" data-id="car" data-name="BMW F31" data-price="109000.00">Kup</button>
+      </li>  
+    </ul>
+  </section>
+
+  <section class="basket">
+    <h1>Koszyk</h1>
+    <ul class="basket-list">
+
+    </ul>
+    <button class="btn-buy-all" disabled>Złóż zamówienie</button>
+  </section>
+
+  <script src="src/basket.js"></script>
+  <script src="src/ui.js"></script>
+</body>
+</html>
